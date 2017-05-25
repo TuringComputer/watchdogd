@@ -2,10 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 #AC_PREREQ(2.60)
-AC_INIT(bbexample, 0.1, ajlennon@dynamicdevices.co.uk)
-AC_CONFIG_SRCDIR([bbexample.c])
+AC_INIT(watchdog, 1.0.0, mauricio@turingcomputer.com.br)
+AC_CONFIG_SRCDIR([watchdogd.c])
 AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(bbexample, main)
+AM_INIT_AUTOMAKE(watchdogd, watchdogd_main)
 
 # Checks for programs.
 AC_PROG_CC
