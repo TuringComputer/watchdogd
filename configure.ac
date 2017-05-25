@@ -5,7 +5,7 @@
 AC_INIT(watchdog, 1.0.0, mauricio@turingcomputer.com.br)
 AC_CONFIG_SRCDIR([watchdogd.c])
 AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(watchdogd, watchdogd_main)
+AM_INIT_AUTOMAKE(watchdogd, main)
 
 # Checks for programs.
 AC_PROG_CC

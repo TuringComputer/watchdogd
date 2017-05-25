@@ -10,7 +10,7 @@
 
 #define DEV_NAME "/dev/watchdog"
 
-int watchdogd_main(int argc, char **argv)
+int main(int argc, char **argv)
 {
     int fd;
     int ret;
